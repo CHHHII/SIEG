@@ -249,20 +249,21 @@ body {
     to{
         transform: translateY(0);
     }
-}
-.content .right .image{
-    position: relative;
-    width: 400px;
-    height: 400px;
+.userImg {
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    border: 6px solid var(--color-black);
+    margin: 0 auto;
+    border: 3px solid white;
 }
-.content .right .image img{
+
+.userImg img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
+    display: block;
+}
 
 }
 .cricle{
