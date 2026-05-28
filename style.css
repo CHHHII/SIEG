@@ -290,25 +290,19 @@ body::after{
     }
 }
 .userImg {
-.userImg {
-    width: 160px;
-    height: 160px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto 10px;
-    border: 5px solid white;
-    position: relative;
-    z-index: 2;
+    margin: 0 auto;
+    border: 3px solid white;
 }
 
 .userImg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 50%;
+    display: block;
 }
 
 .box__account {
