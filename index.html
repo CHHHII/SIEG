@@ -12,6 +12,36 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+        html,
+        body {
+            width: 100%;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            max-width: 100%;
+        }
+
+        #wrapper {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .userImg img {
+            width: 260px;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 20px;
+            display: block;
+            margin: auto;
+            max-width: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,8 +49,8 @@
     <div id="wrapper">
 
         <div class="flag__birthday">
-            <img src="1.png" alt="" width="350" class="flag__left">
-            <img src="1.png" alt="" width="350" class="flag__right">
+            <img src="1.png" alt="" width="150" class="flag__left">
+            <img src="1.png" alt="" width="150" class="flag__right">
         </div>
 
         <div class="content">
@@ -49,7 +79,7 @@
                     </h1>
 
                     <div class="hat">
-                        <img src="hat.png" alt="" width="130">
+                        <img src="hat.png" alt="" width="100">
                     </div>
 
                 </div>
@@ -84,11 +114,11 @@
                     </div>
 
                     <div class="balloon_one">
-                        <img width="100px" src="balloon1.png" alt="">
+                        <img width="55px" src="balloon1.png" alt="">
                     </div>
 
                     <div class="balloon_two">
-                        <img width="100px" src="balloon2.png" alt="">
+                        <img width="55px" src="balloon2.png" alt="">
                     </div>
 
                 </div>
@@ -139,11 +169,11 @@
         </div>
 
         <div class="decorate_bottom">
-            <img src="decorate.png" alt="" width="100">
+            <img src="decorate.png" alt="" width="70">
         </div>
 
         <div class="smiley__icon">
-            <img src="smiley_icon.png" alt="" width="100">
+            <img src="smiley_icon.png" alt="" width="70">
         </div>
 
         <div class="boxMail">
@@ -178,7 +208,8 @@
                         <h3>To You MF</h3>
 
                         <h2>
-                            HAPPY BDAY, wish u all da best and enjoy your day to the fullestt. HEIL HITLUH🙋🇩🇪                        </h2>
+                            HAPPY BDAY, wish u all da best and enjoy your day to the fullestt.
+                        </h2>
 
                         <div class="imageCute2">
                             <img src="cute2.png" alt="">
@@ -200,12 +231,7 @@
         let titleLetter = "To Niggs";
 
         let charArrDate = datetxt.split('');
-        let charArrDateLetter = datatxtletter.split('');
-        let charArrTitle = titleLetter.split('');
-
         let currentIndex = 0;
-        let currentIndexLetter = 0;
-        let currentIndexTitle = 0;
 
         let date__of__birth = document.querySelector(".date__of__birth span");
 
@@ -246,4 +272,6 @@
 
     </script>
 
-</html>
+</body>
+
+    </html>                    
